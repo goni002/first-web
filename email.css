@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: url("background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.flex-container{
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: top;   
+    font-family: 'Work Sans', sans-serif;
+    padding: 30px;
+}
+ 
+.avatar-image{
+    border-radius: 20px;
+    height: 80px;  
+    opacity: 0.6;
+    
+}
+.acc{
+    text-align: center;
+    font-weight: 300;
+    color: #414040;
+    font-size: 30px;
+}
+.email{
+    font-size: small;
+    text-align: center;
+    color: #7c7a7a;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.email-textbox{
+    width: 350px;
+    height: 35px;
+    border: 1px solid #a3a1a1;
+    border-radius: 3px;
+    color: #7c7a7a;
+    padding-left: 10px;
+}
+.trbltext{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    margin-left: 45px;
+    color:#7c7a7a ;
+    margin-left: 0;
+
+}
+.needtext{
+    text-align: left;
+    font-size: 13px;
+    margin-left: 45px;
+    color: orange;
+    text-decoration: none;
+    margin-left: 0;
+
+} 
+.button-item{
+    text-align: center;
+}
+
+.button {
+    
+    outline: none;
+    background-color: #0694f3;
+    border: 1px solid #0694f3;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 35px;
+    margin-top: 20px;
+    
+}
+
+
